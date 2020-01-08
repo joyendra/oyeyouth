@@ -9,6 +9,10 @@
     crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Home</title>
+    <style type="text/css">
+      #parallax-custom {background-image: url(./Imatter.jpeg); background-repeat: no-repeat; background-attachment: fixed; background-position: top center;}
+      #parallax-custom > div {height: 350px;}
+    </style>
 </head>
 <body>
     <ul id="dropdown1" class="dropdown-content">
@@ -61,10 +65,13 @@
             </div>
         </div>
     </div>
-
-    <div class="parallax-container" style="height: 350px; width: 1000px;">
-        <div class="parallax"><img src="./Imatter.jpeg" height="400px"></div>
+    <div id="parallax-custom">
+      <div></div>
     </div>
+
+<!--     <div class="parallax-container" style="height: 350px; width: 1000px;">
+        <div class="parallax"><img src="" height="400px"></div>
+    </div> -->
 
     <div class="section scrollspy" id="Missions">
         <div class="section">
@@ -380,7 +387,7 @@
         </div>
     </div>
 
-    <ul class="collapsible" style="width: 80%; position: relative; left: 100px;" >
+    <ul class="collapsible" style="width: 80%; margin: 1em auto;" >
         <li>
           <div class="collapsible-header"><i class="material-icons">contact_phone</i>Phone</div>
           <div class="collapsible-body"><span>+91-9654657903</span></div>
