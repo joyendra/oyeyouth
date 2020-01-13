@@ -18,11 +18,53 @@
     <ul id="dropdown1" class="dropdown-content">
         <li><a href="workshop.html">Workshops</a></li>
         <li><a href="drive.html">Donation Drives</a></li>
-        <li><a href="#!">Blogs</a></li>
     </ul>
 
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <h4>Disclaimer</h4>
+        <p>The Organization for Youth Empowerment (OYE) is a volunteer-run youth-initiative founded in 2019, inspired by a vision of a society where youth have a powerful voice and the knowledge and resources to use that voice to create positive change in their lives and their communities. We believe that everyone has the right to have access to information free from judgment in a manner that helps them understand the choices available to them.
+          The members, volunteers, and any other parties associated with OYE or any of its regional chapters do not claim to have legally recognized qualifications or authority to offer diagnosis or medical advice of any nature.
+          We act as guides and supporters to those who may reach out to us. While we try our level best to ensure that all knowledge imparted during any activity of OYE is factually accurate and suitable for our audience, for which we have medical professionals on our board, our services are offered in good faith and any advice or instruction provided in any interaction should not be considered a substitute for professional advice. It is always better to take the help of doctors, or relevant medical professionals; we can only help guide you to a certain extent or connect you with a professional.
+          All donation drives conducted by OYE are in kind only. No monetary donations are accepted by any representative of OYE, or it’s regional chapters for any purpose. Any person who donates any amount to OYE has the right to know where their donations were sent and may send an email requesting this information if they desire so.
+          OYE does not in any way promote or encourage promiscuous behaviour among our audience, especially minors and is purely a knowledge-oriented initiative. We do not accept any responsibility for the consequences of a client’s use of our services — either beneficial or otherwise. In no event shall OYE or its members be liable to any person(s) for loss or damage of any kind, which may occur as a result of our services. Please note that OYE requires all people, including schools, NGOS and any other party we provide services to, to read the above Disclaimer. An individual, organization, or institution’s willingness to participate in any interaction or activity will be taken to mean that they have read, understood, and accepted every clause of the above disclaimer.
+          </p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>
+
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>Disclaimer</h4>
+        <p>Join us in transforming young people’s lives and communities for the better. For more information or to express your interest in volunteering with OYE, please reach out to Jayant Aggarwal, HO Community Outreach and communications at <a href="mailto:youth.empowerment.contact@gmail.com">youth.empowerment.contact@gmail.com</a> or find us on any of our social media handles.
+          </p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>
+
+
+    <ul id="dropdown2" class="dropdown-content">
+      <li><a href="#About">Vision</a></li>
+      <li><a href="#Missions">Missions</a></li>
+      <li><a href="#Team">Who we are?</a></li>
+      <li><a class="modal-trigger" href="#modal">Disclaimer</a></li>
+    </ul>
+
+    <ul id="dropdown3" class="dropdown-content">
+      <li><a href="https://medium.com/@youth.empowerment.contact">Blogs</a></li>
+      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfcpSSGnueMsgY85VoUAbXeeINiOCT9CUGZc-z63Vz4rUGPjA/viewform">Volunteer</a></li>
+      <li><a class="modal-trigger" href="#modal1">Collaborate</a></li>
+      <li><a href="#">Donate</a></li>
+      <li><a href="#">FAQs</a></li>
+    </ul>
+
+
     <div class="navbar-fixed">
-    <nav class="nav-wrapper">
+    <nav class="nav-wrapper teal">
         <div class="container">
             <a href="#" class="brand-logo"><img src="./brand-logo.png"width="80" height="80"></a>
             <a href="#" class="sidenav-trigger" data-target="mobile-links">
@@ -30,10 +72,10 @@
             </a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="#">Home</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Missions">Missions</a></li>
+                <li><a href="#About" class="dropdown-trigger" data-target="dropdown2">About<i class="material-icons right">arrow_drop_down</i></a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#" class="dropdown-trigger" data-target="dropdown1">Activities<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="#" class="dropdown-trigger" data-target="dropdown1">Impact<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="#" class="dropdown-trigger" data-target="dropdown3">Get Involved<i class="material-icons right">arrow_drop_down</i></a></li>
                 <li><a href="#Team">Team</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -42,36 +84,40 @@
     </div>
     <ul class="sidenav" id="mobile-links">
         <li><a href="#">Home</a></li>
-        <li><a href="#About">About</a></li>
+        <li><a href="#About">Vision</a></li>
         <li><a href="#Missions">Missions</a></li>
+        <li><a class="modal-trigger" href="#modal">Disclaimer</a></li>
         <li><a href="workshop.html">Workshops</a></li>
         <li><a href="drive.html">Donation Drives</a></li>
-        <li><a href="#!">Blogs</a></li>
+        <li><a href="https://medium.com/@youth.empowerment.contact">Blogs</a></li>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfcpSSGnueMsgY85VoUAbXeeINiOCT9CUGZc-z63Vz4rUGPjA/viewform">Volunteer</a></li>
+        <li><a href="#!">Donate</a></li>
+        <li><a href="#!">FAQS</a></li>
         <li><a href="#Team">Team</a></li>
         <li><a href="#contact">Contact</a></li>
     </ul>
 
     <div id="index-banner" class="parallax-container" style="height: 400px; ">
-        <div class="parallax"><img src="./parallax1.jpeg" height="750px" style="opacity: 1; transform: translate3d(-50%, 234.106px, 0px);"></div>
+        <div class="parallax"><img src="./open.jpeg" style="width: 100%; height: auto;"></div>
     </div>
 
     <div class="section scrollspy" id="About">
-        <div class="section" >
+        <div class="container">
             <div class="row">
                 <div class="col s12 center">
                     <h4>About OYE</h4>
-                    <p class="left-align light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, beatae officiis ipsum harum tenetur magnam ipsa ex porro illo nemo assumenda itaque, ad repellat veritatis illum sapiente praesentium, aliquid sit dolores. Cum velit sapiente deserunt architecto beatae nihil maiores? Necessitatibus quaerat harum quo nihil. Fugit quam molestiae asperiores labore sequi voluptate consequatur reprehenderit ea, voluptatibus placeat tempore numquam neque autem aut corporis alias doloribus maxime dolorum cumque ipsam adipisci laudantium! Nemo facere debitis impedit aliquam. Corporis error, atque magnam corrupti expedita laboriosam saepe ipsum optio voluptates porro sequi facere deserunt numquam pariatur sit quod animi autem beatae eveniet quidem nihil! Enim quo officia obcaecati voluptatem. Culpa, autem explicabo. Expedita quis rerum quibusdam libero earum eveniet beatae officia ipsum quas consequuntur!</p>
+                    <p class="left-align light">The Organization for Youth Empowerment (OYE) is a volunteer-run youth-initiative inspired by a vision of a society where youth have a powerful voice and the knowledge and resources to use that voice to create positive change in their lives and their communities.</p>
                 </div>
             </div>
-        </div>
+            <div class="row">
+              <div class="col s12 center">
+                <img src="Goals.png" style="width: 100%; height: auto;">
+              </div>
+            </div>
     </div>
     <div id="parallax-custom">
       <div></div>
     </div>
-
-<!--     <div class="parallax-container" style="height: 350px; width: 1000px;">
-        <div class="parallax"><img src="" height="400px"></div>
-    </div> -->
 
     <div class="section scrollspy" id="Missions">
         <div class="section">
@@ -88,40 +134,39 @@
           <!--   Icon Section   -->
           <div class="row">
             <div class="col s12 m3">
-              <div class="icon-block">
-                <h2 class="center brown-text"><i class="material-icons">school</i></h2>
-                <h5 class="center">Educate</h5>
-    
-                <p class="light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam rerum harum in commodi dolor explicabo ipsam unde inventore non. Nesciunt accusantium dicta porro minima iure necessitatibus exercitationem facere voluptas quo.</p>
+              <div class="icon-block center">
+                <img src="e2.jpeg" >
+                    
+                <p class="light">We at OYE work towards a theory of youth becoming the change through building the self-confidence, leadership, and knowledge of not only women and girls, but also men and boys, about their sexuality and human rights, and creating feminist as well as meninist platforms to challenge oppressive norms and orthodox structures.</p>
               </div>
             </div>
     
             <div class="col s12 m3">
-              <div class="icon-block">
-                <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-                <h5 class="center">Empower</h5>
+              <div class="icon-block center">
+                <img src="e4.jpeg" >
     
-                <p class="light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui similique nemo in perspiciatis placeat explicabo fuga corrupti consectetur repellat aspernatur. Iste, sapiente ut? Ducimus facere doloribus optio reiciendis ea impedit?</p>
+                <p class="light">Through dynamic and participatory workshops, OYE seeks to empower young people to make smart and healthy decisions for their futures. We have developed an effective youth leadership and life skills development curriculum, divided into three age-specific levels and different modules encompassing several themes.</p>
               </div>
             </div>
     
             <div class="col s12 m3">
-              <div class="icon-block">
-                <h2 class="center brown-text"><i class="material-icons">chat</i></h2>
-                <h5 class="center">Engage</h5>
+              <div class="icon-block center">
+              <img src="E1.jpeg" >
     
-                <p class="light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et culpa dicta ipsum laudantium enim non beatae alias pariatur incidunt at! Exercitationem, ipsam? Voluptatum iusto perferendis ad dicta exercitationem esse vel?</p>
+                <p class="light">OYE’s core youth-led programs create spaces for adolescents to engage with each other, develop skills and give back to their communities. We believe that empowered and engaged young people are the key to building stronger, more resilient communities.
+                  Our hands-on, youth-led approach ensures that our projects respond to the realities of the youth we engage and creates opportunities for them to develop leadership, creative and critical thinking, decision-making and effective communication, among other significant life skills through our worksheets and activities.
+                  </p>
               </div>
             </div>
 
             <div class="col s12 m3">
-                <div class="icon-block">
-                  <h2 class="center brown-text"><i class="material-icons">trending_up</i></h2>
-                  <h5 class="center">Lead</h5>
+              <div class="icon-block center">
+              <img src="e4.jpeg">
       
-                  <p class="light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nesciunt doloremque illum dolorum velit, rem, ipsam facilis quod, adipisci aut fugit repudiandae expedita! Neque provident eligendi doloribus voluptatibus? Ipsum, neque?</p>
+                  <p class="light">Providing young people with opportunities to lead youth through gender and education-centric projects in local schools and communities, we object to develop a broader understanding of interpersonal development amongst not only the youth but also our own volunteers, through physical, social and political environments and initiating interventions that enable and empower them to control these factors.</p>
                 </div>
               </div>
+            </div>
             </div>
         </div>
     </div>
@@ -129,7 +174,7 @@
     <div class="slider">
         <ul class="slides">
           <li>
-            <img src="1.jpeg"> 
+            <img src="wrkshp1.jpeg"> 
             <!-- <div class="caption center-align">
               <h3>This is our big Tagline!</h3>
               <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
@@ -157,14 +202,14 @@
             </div> -->
           </li>
           <li>
-            <img src="5.jpeg"> 
+            <img src="Donation1.jpeg"> 
             <!-- <div class="caption center-align">
               <h3>This is our big Tagline!</h3>
               <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
             </div> -->
           </li>
           <li>
-            <img src="6.jpeg"> 
+            <img src="1.jpeg"> 
             <!-- <div class="caption center-align">
               <h3>This is our big Tagline!</h3>
               <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
@@ -184,24 +229,34 @@
     </div>
     <div class="carousel carousel-slider center">
         <div class="carousel-item red white-text" href="#">
-          <h2>First Panel</h2>
-          <p class="white-text">This is your first panel</p>
+          <h2>Let’s be OURSELVES!</h2>
+          <p class="white-text">Facilitating dialogue circles to foster open discussion and reflection on issues that impact their health and well-being and driving advocacy efforts to implement comprehensive “sexuality” education in local public schools and NGOs, OYE aims to spread awareness about gender identity, physical and emotional attraction and biological sex that influence a person’s gender expression. Our workshop content is age specific.From “Good touch-Bad touch” for the toddlers to “Gender dysphoria and Sexual identity issues” for young adults,  the workshops are completely inclusive of the LGBTQA+ community providing the adolescents a safe environment inculcating the feeling of inclusion, support and acceptance among them. </p>
         </div>
         <div class="carousel-item amber white-text" href="#">
-          <h2>Second Panel</h2>
-          <p class="white-text">This is your second panel</p>
+          <h2>Let’s be REAL!</h2>
+          <p class="white-text">Adding a new dimension to the “Let’s Be Ourselves!” project, we facilitate gender and masculinity workshops, using dialogue circles and participatory methods to engage adolescents and young people in deconstructing and reconstructing masculinity often engaging them in discussions about their concepts about bodily changes which must not affect their behaviour. We dig deeper into the gender expression, catering to different gender bias issues existing around us like toxic masculinity and femininity, social norms that create a certain image that a man or woman must portray to be accepted in the society and much more.</p>
         </div>
         <div class="carousel-item green white-text" href="#!">
-          <h2>Third Panel</h2>
-          <p class="white-text">This is your third panel</p>
+          <h2>Let’s get Mental!</h2>
+          <p class="white-text">During the teenage years striking changes take place in the body as well as the brain. Youth are particularly vulnerable to mental health challenges including – depression, anxiety, ADHD, self-harm, eating disorders and more.
+            You are not alone. We at OYE offer a convenient and safe place for teens to connect, share stories and encouragement. Positive social support is a critical component to developing into a healthy adult. Members of our OYE support group have access to dedicated activity streams, forums and chat rooms. In addition, members can participate in the larger wellness challenge through our inspirational wellness tools posted regularly on our social media tabs — fun-illustrated wellness tracker, friend reminders, mood mapping and lot more.
+            We believe that individuals become empowered to help themselves and others when they feel a part of something larger. Our young volunteers, because of the less age gap bond with the children forming peer-to-peer support groups helping them combat mental health challenges and/or difficult family dynamics.
+            One of the main benefits of our young team counselling for children is that it teaches them how to effectively manage emotional distress and anxiety – by themselves. More specifically, children learn how to prevent panic attacks, and deal with anxiety in healthier ways.
+            Some children are exposed to disturbing situations that traumatize them – events no child should bear witness to or experience. The negative and heart-breaking effects of trauma can include shock, disbelief, detachment, emotional or social numbness, fear, anxiety, and depression. 
+            OYE gives these special children an outlet to share their feelings, fears, and concerns.
+            In other words, we can give these children a voice – one, in which they can talk about what happened to them and how it made them feel then and how it makes them feel now. We aim to encourage these individuals to share their feelings, regardless of what they are, instead of keeping them bottled up inside.
+            Our friendly and informal counselling can help these children understand that they are not to blame for what happened to them. They are survivors – not victims or perpetrators.
+            </p>
         </div>
         <div class="carousel-item blue white-text" href="#">
-          <h2>Fourth Panel</h2>
-          <p class="white-text">This is your fourth panel</p>
+          <h2>Let’s Log Out!</h2>
+          <p class="white-text">“You’re always on your phone!” the one dialogue ever teenager’s mother has in common. Most of us at OYE are ourselves teens, and we relate with the thousands of other kids who’ve heard this at least once from their friends and family. 
+            With a message to plug Back into life, this project offers several workshops, each beginning with the assessment and treatment of on-line addictions. The workshops cover the use and abuse of digital devices such as smartphones, cell phones, video game consoles and portable gaming/music devices. Special attention is paid to the most common forms of Internet and Digital problems, such as sex (including pornography and cybersex), gaming (including MMPORG’s, game consoles and handheld devices) and on-line gambling. Other issues covered include shopping, auctioning, excessive emailing and compulsive surfing.
+            </p>
         </div>
         <div class="carousel-item purple white-text" href="#">
-            <h2>Fifth Panel</h2>
-            <p class="white-text">This is your fifth panel</p>
+            <h2>Let’s get Healthy!</h2>
+            <p class="white-text">Our Wellness Workshops are interactive programs designed for people of all ages, with topics ranging from balanced diet for the kids to eating disorders and body image for the youth. We, with this project define being healthy and beautiful in the literal sense and not the definition created by others. The workshops not only establish the fact that fitness is essential but also how being fit and fat at the same time is healthy because fat is an adjective, not an insult. Our discussions revolve around different eating disorders, obesity, malnutrition, having a better sense of nutrition  and age appropriate diet plans to help people understand we are what we eat. We also focus on related issues like hormonal imbalances causing weight gain and other factors that may define your body type.</p>
           </div>
     </div>
     
@@ -210,6 +265,8 @@
             <div class="row">
                 <div class="col s12 center">
                     <h4>Meet Our Team</h4>
+                    <p>The OYE team is a collection of empowered youth leaders and experienced professionals. We are united by our passion and conviction that educating, empowering and engaging young people is key to sustainable and equitable development in India.
+                      </p>
                 </div>
             </div>
         </div>
@@ -218,32 +275,53 @@
     <div class="container">
         <div class="section">
             <div class="row">
-                <div class="col s12 m6">
+                <div class="col s12 m4">
                     <div class="card horizontal">
                       <div class="card-image">
-                        <img src="WhatsApp Image 2020-01-06 at 17.50.30.jpeg">
+                        <img src="team1 (1).jpeg">
                       </div>
                       <div class="card-stacked">
                         <div class="card-content">
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam obcaecati doloremque consectetur, rerum esse molestiae temporibus quibusdam cumque a facere laboriosam iusto omnis consequuntur necessitatibus nobis deleniti modi, eaque placeat.</p>
+                          <p>Pahul, OYE's founder and executive director, is a 16-year-old social entrepreneur with a vision to transform the world in a better way. Extremely talented, with impeccable writing, singing and painting skills, she believes music is our intercession for those sentiments beyond rational description. She takes every project very seriously and deliverers everything with nothing less than perfection. Besides being an environment enthusiast, she is also trained in yoga and has had a lot of academic awards under her belt. Having a deep sense of social welfare and community well-being, Pahul works diligently for the cause which even motivates her team to reciprocate positively. She is the saving grace of OYE who holds the team together strongly.
+                          </p>
                         </div>
                         <div class="card-action">
-                          <a href="#">Find me at</a>
+                          <a href="mailto:pahulsachdeva@hotmail.com">Find me at</a>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="col s12 m6">
+                  <div class="col s12 m4">
                     <div class="card horizontal">
                       <div class="card-image">
-                        <img src="https://lorempixel.com/100/190/nature/6">
+                        <img src="team jy.jpeg">
                       </div>
                       <div class="card-stacked">
                         <div class="card-content">
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla facere eligendi error accusantium expedita impedit voluptates tempore cumque officia saepe tempora laboriosam odit voluptatem, ut deserunt veniam veritatis iure cupiditate.</p>
+                          <p>Jyona, the co-founder and content strategist for OYE, is a 17-year-old dynamic overseer who aims at combatting the myopic visionary of social norms. An aspiring nutritionist, who believes in the strength of nutrition in transforming lives, she is an extensive hobbyist and bibliophile who likes to paint, dance, write and do photography. She has proved her debating and speaking skills in many national level debates and youth parliaments, showcasing her strong opinionated nature. A great admirer of Bangtan Sonyeondan (BTS), a K-pop band for their deep and inspiring messages of loving yourself, Jyona creates fun and engaging content for OYE worksheets with a similar message.
+                            She is truly an asset to OYE.
+                            </p>
                         </div>
                         <div class="card-action">
-                          <a href="#">Find me at</a>
+                          <a href="mailto:jyona1911@gmail.com">Find me at</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col s12 m4">
+                    <div class="card horizontal">
+                      <div class="card-image">
+                        <img src="team jayant.jpeg">
+                      </div>
+                      <div class="card-stacked">
+                        <div class="card-content">
+                          <p>With a ‘never say no’ attitude and a firm belief that theoretical knowledge doesn’t suffice for a holistic exposure to any globally sensitive issue, Jayant, a perspicacious 16-year old, with a strong academic command over his subjects, is optimistic, enthusiastic and extremely motivating. His ideology exhibits a blend of kindness and hard-work, with imagination, which adds core value to the functionality of OYE.
+                            He is versatile in nature, and comes of great importance while networking and reaching out to communities.
+                            He makes a perfect fit to Head Community Outreach and communications at OYE.
+                            </p>
+                        </div>
+                        <div class="card-action">
+                          <a href="mailto:jayantaggarwal2304@gmail.com">Find me at</a>
                         </div>
                       </div>
                     </div>
@@ -251,131 +329,113 @@
             </div>
             <!-- small ones -->
             <div class="row">
-                <div class="col s12 m3">
+                  <div class="col s12 m4">
                     <div class="card horizontal">
                       <div class="card-image">
-                        <img src="WhatsApp Image 2020-01-06 at 17.50.30.jpeg">
+                        <img src="team pr (1).jpg">
                       </div>
                       <div class="card-stacked">
                         <div class="card-content">
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam obcaecati doloremque consectetur, rerum esse molestiae temporibus quibusdam cumque a facere laboriosam iusto omnis consequuntur necessitatibus nobis deleniti modi, eaque placeat.</p>
-                        </div>
-                        <div class="card-action">
-                          <a href="#">Find me at</a>
+                          <p>An insightful individual with a vast imaginative outlook, Pratisruti Karmakar is best at her job as the official illustrator of OYE. She transforms the verbal ideas into beautiful graphics with a wide appeal and alluring aesthetics. Beside digital art, Pratisruti is an extensive linguist and loves to read and write. Her command over language is commendable which is enhanced by her fine handwriting skills. She also loves to watch Anime and listen to music. With the never-ending list of qualities, Pratisruti Karmakar perfectly fits as the social media and marketing head of OYE.</p>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="col s12 m3">
+                  <div class="col s12 m4">
                     <div class="card horizontal">
                       <div class="card-image">
-                        <img src="WhatsApp Image 2020-01-06 at 17.50.30.jpeg">
+                        <img src="photo-coming-soon.jpg">
                       </div>
                       <div class="card-stacked">
                         <div class="card-content">
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam obcaecati doloremque consectetur, rerum esse molestiae temporibus quibusdam cumque a facere laboriosam iusto omnis consequuntur necessitatibus nobis deleniti modi, eaque placeat.</p>
+                          <p>A tech and AI enthusiast, Nitish, the website and digital executive of OYE is an indefectible fit for heading this department. With an incessant amount of achievements in this field, Nitish proves to be the best in what he does. Other than being a techie, he loves gaming, reading and watching anime. Nitish, being insightful and logical, his inputs in the projects are of great importance to the whole team. From website management to digital marketing, Nitish is the ideal fit for this position.</p>
                         </div>
-                        <div class="card-action">
-                          <a href="#">Find me at</a>
-                        </div>
+                        
                       </div>
                     </div>
                   </div>
-                  <div class="col s12 m3">
-                    <div class="card horizontal">
-                      <div class="card-image">
-                        <img src="WhatsApp Image 2020-01-06 at 17.50.30.jpeg">
-                      </div>
-                      <div class="card-stacked">
-                        <div class="card-content">
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam obcaecati doloremque consectetur, rerum esse molestiae temporibus quibusdam cumque a facere laboriosam iusto omnis consequuntur necessitatibus nobis deleniti modi, eaque placeat.</p>
+                  <div class="row">
+                    <div class="col s12 m4">
+                      <div class="card horizontal">
+                        <div class="card-image">
+                          <img src="team san.jpg">
                         </div>
-                        <div class="card-action">
-                          <a href="#">Find me at</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col s12 m3">
-                    <div class="card horizontal">
-                      <div class="card-image">
-                        <img src="WhatsApp Image 2020-01-06 at 17.50.30.jpeg">
-                      </div>
-                      <div class="card-stacked">
-                        <div class="card-content">
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam obcaecati doloremque consectetur, rerum esse molestiae temporibus quibusdam cumque a facere laboriosam iusto omnis consequuntur necessitatibus nobis deleniti modi, eaque placeat.</p>
-                        </div>
-                        <div class="card-action">
-                          <a href="#">Find me at</a>
+                        <div class="card-stacked">
+                          <div class="card-content">
+                            <p>Sanchaita, a 15-year-old who firmly keeps herself in front of others aiming to address the issues that are bothersome to her as well as the whole society. Being assertive with strong views, Sanchaita loves debating and writing. She is also a trained Kathak dancer and loves to spend time with her dog Coco. Another BTS army in the team, Sanchaita takes the underlying messages of their songs very seriously and analyse them beautifully. Besides her hobbies, Sanchaita is also passionate about spreading awareness and works enthusiastically for the cause. She is the volunteer-coordinator at OYE. She is the youngest member of our core team, being the point of interaction for all volunteers and the core team. Helping people identify their forte and providing them with outlets and opportunities to contribute to community service though OYE, Sanchaita fulfils her goal to empower and feel empowered along the process.</p>
+                          </div>
+                          
                         </div>
                       </div>
                     </div>
-                  </div>
             </div>
             <div class="row">
-                <div class="col s12 m3">
-                    <div class="card horizontal">
-                      <div class="card-image">
-                        <img src="WhatsApp Image 2020-01-06 at 17.50.30.jpeg">
+              <div class="col s12 m4">
+                <div class="card horizontal">
+                  <div class="card-image">
+                    <img src="team van.jpeg">
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <p>Vanshika, OYE's official photographer and videographer is a self-taught photophile who believes in the power of photography to increase her patience and observation skills. Vanshika is an ardent supporter of the say- photographs are a story without words. She is best at her job and captures every moment beautifully with her clicks on the camera shutter. She is truly a dedicated member and we feel immensely fortunate to have her in the team.</p>
+                    </div>
+                    <div class="card-action">
+                      <a href="https://www.instagram.com/vanshika.sahani.photography/">Find me at</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m4">
+                <div class="card horizontal">
+                  <div class="card-image">
+                    <img src="mentor_joyendra.jpg">
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <p>BIG DADDY</p>
+                    </div>
+                    <div class="card-action">
+                      <a href="https://www.linkedin.com/in/joyendra-roy-biswas/">Find me at</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col s12 m4">
+                  <div class="card horizontal">
+                    <div class="card-image">
+                      <img src="mentor_shelly.jpg">
+                    </div>
+                    <div class="card-stacked">
+                      <div class="card-content">
+                        <p><ul>
+                          <li style="list-style-type: circle">Founder Member & Legal Advisor at Adhikar- IYC Legal Aid Cell</li>
+                          <li style="list-style-type: circle">Legal Consultant at Bachpan Bachao Andolan</li>
+                          <li style="list-style-type: circle">Legal Advisor at Delhi Pradesh Congress Committee - Minority Department</li>
+                          <li style="list-style-type: circle">Panel Counsel- Delhi High Court at EDMC</li>
+                          <li style="list-style-type: circle">Member on Peace Committee of Delhi Minorities Commission at Delhi Minorities Commission, Govt. of NCT of Delhi
+                          </li>
+                          <li style="list-style-type: circle">Empanelled Advocate at South Delhi Municipal Corporation</li>
+                          <li style="list-style-type: circle">Member on Sikh Advisory Comittee at Delhi Minorities Commission, Govt.of NCT of Delhi.</li>
+                          <li style="list-style-type: circle">National Joint Secretary at Youth Bar Association of India Advocate</li>
+                          <li style="list-style-type: circle">Legal Counselor for Rape Victims & CAW at Delhi State Legal Services Authority - DLSA
+                          </li>
+                          <li style="list-style-type: circle">Empaneled Advocate at Punjab & Sind Bank</li>
+                          <li style="list-style-type: circle">All India Cell On Child Rights at Child Rights Advocate</li>
+                          <li style="list-style-type: circle">National Legal Head- PAAKHI AT Pinkishe Foundation</li>
+                        </ul></p>
                       </div>
-                      <div class="card-stacked">
-                        <div class="card-content">
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam obcaecati doloremque consectetur, rerum esse molestiae temporibus quibusdam cumque a facere laboriosam iusto omnis consequuntur necessitatibus nobis deleniti modi, eaque placeat.</p>
-                        </div>
-                        <div class="card-action">
-                          <a href="#">Find me at</a>
-                        </div>
+                      <div class="card-action">
+                        <a href="https://in.linkedin.com/in/shelly-dutta-b0978117">Find me at</a>
                       </div>
                     </div>
                   </div>
-                  <div class="col s12 m3">
-                    <div class="card horizontal">
-                      <div class="card-image">
-                        <img src="WhatsApp Image 2020-01-06 at 17.50.30.jpeg">
-                      </div>
-                      <div class="card-stacked">
-                        <div class="card-content">
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam obcaecati doloremque consectetur, rerum esse molestiae temporibus quibusdam cumque a facere laboriosam iusto omnis consequuntur necessitatibus nobis deleniti modi, eaque placeat.</p>
-                        </div>
-                        <div class="card-action">
-                          <a href="#">Find me at</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col s12 m3">
-                    <div class="card horizontal">
-                      <div class="card-image">
-                        <img src="WhatsApp Image 2020-01-06 at 17.50.30.jpeg">
-                      </div>
-                      <div class="card-stacked">
-                        <div class="card-content">
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam obcaecati doloremque consectetur, rerum esse molestiae temporibus quibusdam cumque a facere laboriosam iusto omnis consequuntur necessitatibus nobis deleniti modi, eaque placeat.</p>
-                        </div>
-                        <div class="card-action">
-                          <a href="#">Find me at</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col s12 m3">
-                    <div class="card horizontal">
-                      <div class="card-image">
-                        <img src="WhatsApp Image 2020-01-06 at 17.50.30.jpeg">
-                      </div>
-                      <div class="card-stacked">
-                        <div class="card-content">
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam obcaecati doloremque consectetur, rerum esse molestiae temporibus quibusdam cumque a facere laboriosam iusto omnis consequuntur necessitatibus nobis deleniti modi, eaque placeat.</p>
-                        </div>
-                        <div class="card-action">
-                          <a href="#">Find me at</a>
-                        </div>
-                      </div>
+                </div>
+        </div>
+                                  </div>
                     </div>
                   </div>
             </div>
-        </div>
-    </div>
 
     <div class="section scrollspy" id="contact">
         <div class="section">
@@ -434,6 +494,7 @@
     $('.collapsible').collapsible();
     $('.scrollspy').scrollSpy();
     });
+    $('.modal').modal();
     $(".dropdown-trigger").dropdown({hover: true});
     $('.carousel.carousel-slider').carousel({
     fullWidth: true,
